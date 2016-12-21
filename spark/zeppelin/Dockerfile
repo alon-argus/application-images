@@ -17,7 +17,7 @@
 
 FROM gcr.io/google_containers/spark-base:latest
 
-ENV ZEPPELIN_VER  0.5.6-incubating
+ENV ZEPPELIN_VER  0.6.2
 
 RUN mkdir -p /opt && \
     cd /opt && \
